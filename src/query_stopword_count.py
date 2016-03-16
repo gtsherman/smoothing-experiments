@@ -14,8 +14,5 @@ with open(stoplist_file) as f:
 with open(query_file) as f:
 	for line in f:
 		num, text = line.split('\t')
-		words = text.split()
-		stops = 0
-		for word in words:
-			stops += 1 if word in stopwords else 0
-		print('\t'.join([num, str(stops)]))
+		stops = [word for word in text.split() if word in stopwords]
+		print('\t'.join([num, str(len(stops))]))
