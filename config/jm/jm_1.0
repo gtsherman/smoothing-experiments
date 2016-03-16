@@ -1,0 +1,3 @@
+<parameters>
+  <rule>method:linear,collectionLambda:1.0</rule>
+</parameters>

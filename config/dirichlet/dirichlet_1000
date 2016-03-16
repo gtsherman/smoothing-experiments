@@ -1,0 +1,3 @@
+<parameters>
+  <rule>method:dirichlet,mu:1000</rule>
+</parameters>

@@ -1,0 +1,3 @@
+<parameters>
+  <rule>method:two,mu:7500,lambda:0.9</rule>
+</parameters>
